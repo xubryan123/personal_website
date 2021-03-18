@@ -1,15 +1,36 @@
 nav{
     text-align: center;
-    background-color: lightblue;
+    background-color: #A6CAD4;
 }
 h1{
-    color: #0000FF;
+    text-align: center;
     font: 24px 'Montserrat', sans-serif;
+    background-color: #A6CAD4;
+}
+p{
+    width: 60%;
+}
+img{
+    position: absolute;
+    top: 150px;
+    right: 100px;
+}
+.flexb{
+    display: flex;
+    flex-direction: column;
+}
+.flexi{
+    border-bottom: 1px solid black;
 }
 ul{
     list-style-type: none;
 }
 
+li{
+    display: inline-block;
+}
+
 body{
-    background-color: #FFA500
+    /* display: inline-flex; */
+    background-color: #E5E5DC
 }
