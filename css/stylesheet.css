@@ -7,7 +7,7 @@ h1{
     font: 24px 'Montserrat', sans-serif;
     background-color: #A6CAD4;
 }
-p{
+#par{
     width: 60%;
 }
 img{
@@ -18,6 +18,9 @@ img{
 .flexb{
     display: flex;
     flex-direction: column;
+}
+.coursedesc{
+    text-align: right;
 }
 .flexi{
     border-bottom: 1px solid black;
