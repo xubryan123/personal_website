@@ -20,8 +20,8 @@ img{
 }
 
 .flexb{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
     padding: 10px;
 }
 
